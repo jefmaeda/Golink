@@ -4,11 +4,26 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --text-color: white;
 }
 
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
+}
+
+body {
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
+
+#container {
+  border: solid 1px red;
+  width: 360px;
+  margin: 56px auto 32px;
+  padding: 24px;
 }
