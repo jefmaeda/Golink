@@ -19,8 +19,6 @@ body {
   background-size: cover;
   background-position: top center;
   height: 100vh;
-
-  background: linear-gradient(90deg, #541e55, #8087cc);
 }
 
 #container {
